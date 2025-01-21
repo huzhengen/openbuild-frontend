@@ -1,6 +1,6 @@
 {
   "name": "@openbuild/official-frontend",
-  "version": "0.0.6",
+  "version": "1.0.1",
   "private": true,
   "engines": {
     "node": ">=20.0.0"
