@@ -17,8 +17,17 @@ jobs:
         # with:
           # node-version: 18
 
-      - name: Install dependencies
-        run: npm install
+      # - name: Install dependencies
+        # run: npm install
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup
+        run: npm i -g @antfu/ni
+
+      - name: Install
+        run: ni --no-frozen-lockfile
 
       - name: Create Release
         id: create_release
