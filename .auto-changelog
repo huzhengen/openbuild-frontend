@@ -1,0 +1,5 @@
+{
+  "template": "keepachangelog",  // 使用 Keep a Changelog 模板
+  "unreleased": true,  // 包含未发布的变更
+  "commitLimit": false  // 显示所有提交
+}
