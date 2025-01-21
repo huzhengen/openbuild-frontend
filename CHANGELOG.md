@@ -1,6 +1,12 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.6](https://github.com/openbuildxyz/openbuild-frontend/compare/v0.0.5...v0.0.6) (2025-01-21)
+
+
+### Features
+
+* add changelog template and configuration for automated release management ([047c004](https://github.com/openbuildxyz/openbuild-frontend/commits/047c0045e44b294b29ee26e9db08e20fa571ca1c))
 
 ### [0.0.5](https://github.com/huzhengen/openbuild-frontend/compare/v0.0.4...v0.0.5) (2025-01-21)
 
