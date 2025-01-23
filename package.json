@@ -1,6 +1,6 @@
 {
   "name": "@openbuild/official-frontend",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "private": true,
   "engines": {
     "node": ">=20.0.0"
@@ -20,7 +20,7 @@
     "doc": "node .knosys/scripts site",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky",
-    "release": "commit-and-tag-version --release-as $npm_config_release_as && git push --follow-tags origin test"
+    "release": "commit-and-tag-version --release-as $npm_config_release_as && git push --follow-tags origin commit-and-tag-version"
   },
   "dependencies": {
     "@bytemd/plugin-breaks": "^1.21.0",
